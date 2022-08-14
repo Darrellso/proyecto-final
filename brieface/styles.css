@@ -1,0 +1,240 @@
+body {
+  background: #200122;
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);
+  background: linear-gradient(to right, #6f0000, #200122);
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  font-size: 21px;
+  background-color: black;
+}
+
+.max {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cuadritos {
+  border: solid;
+  border-color: #6f0000;
+}
+
+.cuadritos1 {
+  border: solid;
+  border-color: #6f0000;
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 23px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.my h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  font-family: 'Prata', serif;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  text-decoration: double;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 35px;
+}
+
+.html-css p {
+
+  display: flex;
+  justify-content: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+  margin-top: 35px;
+}
+
+.sp1 {
+  color: orangered;
+}
+
+.sp2 {
+  color: rgb(10, 82, 177);
+}
+
+/*dalio*/
+.dalio {
+  border: solid;
+  border-radius: 10%;
+  width: 539px;
+  padding: 35px;
+}
+
+.dalio h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.dalio img {
+  height: 285px;
+  padding: 35px;
+}
+
+/*beccas*/
+
+.biccas {
+  border: solid;
+  border-radius: 10%;
+  width: 539px;
+  padding: 35px;
+}
+.biccas h2 {
+  display: flex;
+  justify-content: center;
+}
+.biccas img {
+  height: 285px;
+  padding: 35px;
+}
+.tarea4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tarea4 p {
+  display: flex;
+  justify-content: end;
+  border: solid;
+  width: 341px;
+  padding: 12px;
+  margin-left: 35px;
+}
+
+.tarea4 img {
+  width: 539px;
+  height: 540px;
+  margin-top: 35px;
+}
+
+.tarea1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarea1 p {
+  display: flex;
+  justify-content: end;
+  border: solid;
+  width: 341px;
+  padding: 12px;
+  margin-right: 35px;
+}
+
+.tarea1 img {
+  width: 539px;
+  height: 540px;
+  margin-top: 35px;
+}
+
+.tarea11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarea11 p {
+  display: flex;
+  justify-content: end;
+  border: solid;
+  width: 341px;
+  padding: 12px;
+  margin-left: 35px;
+}
+
+.tarea11 img {
+  width: 539px;
+  height: 540px;
+  margin-top: 35px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: black;
+}
+
+.final {
+  display: flex;
+  justify-content: center;
+  gap: 88px;
+  margin-top: 35px;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.what {
+  display: flex;
+}
+
+.number li {
+
+  display: flex;
+  list-style: none;
+}
+
+.ing {
+
+  flex-direction: row;
+  color: #fff;
+}
+
+.ing li {
+  list-style: none;
+}
+
+.ing a {
+  color: #fff;
+}
+
+.redes {
+  display: flex;
+}
+
+.face {
+  display: flex;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.face a {
+  color: #fff;
+}
+
+.face li {
+  list-style: none;
+}

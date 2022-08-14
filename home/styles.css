@@ -1,0 +1,297 @@
+body {
+  background: #1d4350;
+  background: -webkit-linear-gradient(to right, #a43931, #1d4350);
+  background: linear-gradient(to right, #a43931, #1d4350);
+  color: white;
+  margin: 0px;
+  font-family: "Playfair Display", serif;
+}
+/*listas*/
+nav {
+  font-size: 21px;
+  background-color: black;
+}
+
+.max {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cuadritos {
+  border: solid;
+  border-color: #1d4350;
+}
+
+.cuadritos1 {
+  border: solid;
+  border-color: tomato;
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 23px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*sobre mi*/
+.about h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 68px;
+}
+
+.me {
+  display: flex;
+  justify-content: center;
+  border: solid;
+  border-color: #a43931;
+  border-style: double;
+  border-radius: 39px;
+  font-size: 20px;
+  padding: 36px;
+  margin-left: 47px;
+  margin-right: 70px;
+  margin-top: 35px;
+}
+
+.skills {
+  border: solid;
+  border-color: #1d4350;
+  border-style: double;
+  border-radius: 39px;
+  margin-left: 600px;
+  margin-top: 35px;
+  margin-right: 25px;
+}
+
+.skills-into {
+  display: block;
+  font-size: 19px;
+  padding: 35px;
+  margin-left: 123px;
+}
+
+.dibujos {
+  border: solid;
+  border-color: #a43931;
+  border-style: double;
+  border-radius: 39px;
+  margin-right: 555px;
+  margin-top: 35px;
+}
+
+.dibujos h3 {
+  font-family: "Shadows Into Light", cursive;
+  display: flex;
+  justify-content: center;
+  margin-right: 45px;
+}
+
+/*slider*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.marco {
+  width: 700px;
+  height: auto;
+  margin: 50px auto 0;
+  overflow: hidden;
+  margin-left: 246px;
+}
+
+.marco ul {
+  display: flex;
+  padding: o;
+  width: 400%;
+  animation: slider 8s infinite alternate;
+}
+
+.marco li {
+  width: 100%;
+  list-style: none;
+}
+
+.marco img {
+  width: 50%;
+}
+
+@keyframes slider {
+  0% {
+    margin-left: 0%;
+  }
+
+  20% {
+    margin-left: 0%;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -200%;
+  }
+
+  80% {
+    margin-left: -300%;
+  }
+
+  100% {
+    margin-left: -300%;
+  }
+}
+
+/* trabajos-dalio-biccas*/
+
+.trabajos {
+  margin-top: 60px;
+}
+
+.ct1 {
+  border: solid;
+  border-style: double;
+  border-color: #165469;
+  border-radius: 39px;
+  margin-top: 35px;
+  margin-left: 600px;
+  padding: 35px;
+  padding-bottom: 80px;
+}
+
+.trabajos h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.ct1 img {
+  width: 647px;
+  padding-top: 25px;
+  margin-left: 50px;
+  border-radius: 50px;
+}
+
+.ct1 a {
+  color: white;
+  display: block;
+  border: solid;
+  border-color: black;
+  border-radius: 40px;
+  background: #1d4350;
+  background: -webkit-linear-gradient(to bottom, #a43931, #1d4350);
+  background: linear-gradient(to bottom, #a43931, #1d4350);
+  width: 65px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 700px;
+}
+
+.trabjo2 {
+  margin-top: 35px;
+}
+
+.ct2 {
+  border: solid;
+  border-color: #a43931;
+  border-radius: 39px;
+  width: 742px;
+  padding: 20px;
+}
+
+.ct2 img {
+  width: 547px;
+  padding-left: 46px;
+  padding-top: 15px;
+  border-radius: 94px;
+}
+
+.ct2 a {
+  color: white;
+  display: block;
+  border: solid;
+  border-color: black;
+  border-radius: 40px;
+  background: #1d4350;
+  background: -webkit-linear-gradient(to bottom, #a43931, #1d4350);
+  background: linear-gradient(to bottom, #a43931, #1d4350);
+  width: 65px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 700px;
+}
+
+/*footer*/
+footer {
+  background-color: black;
+}
+
+.final {
+  display: flex;
+  justify-content: center;
+  gap: 88px;
+  margin-top: 35px;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.what {
+  display: flex;
+}
+
+.number li {
+  display: flex;
+  list-style: none;
+}
+
+.ing {
+  flex-direction: row;
+  color: #fff;
+}
+
+.ing li {
+  list-style: none;
+}
+
+.ing a {
+  color: #fff;
+}
+
+.redes {
+  display: flex;
+}
+
+.face {
+  display: flex;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.face a {
+  color: #fff;
+}
+
+.face li {
+  list-style: none;
+}

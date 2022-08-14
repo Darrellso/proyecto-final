@@ -1,0 +1,119 @@
+body{
+  background: #000000; 
+  background: -webkit-linear-gradient(to left, #434343, #000000);  
+  background: linear-gradient(to left, #434343, #000000); 
+  color: white;
+}
+
+/*listas*/
+nav {
+  font-size: 21px;
+  background-color: black;
+}
+p{
+  margin-top: 25px;
+}
+
+.max {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cuadritos {
+  border: solid;
+  border-color: gray;
+}
+
+.cuadritos1 {
+  border: solid;
+  border-color: gray;
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 23px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.titulo{
+  display:flex;
+  justify-content: end;
+}
+.mail li{
+  list-style: none;
+}
+/*contenido*/
+.fount{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*footer*/
+footer {
+  background-color: black;
+}
+
+.final {
+  display: flex;
+  justify-content: center;
+  gap: 88px;
+  margin-top: 35px;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.what {
+  display: flex;
+}
+
+.number li {
+  display: flex;
+  list-style: none;
+}
+
+.ing {
+  flex-direction: row;
+  color: #fff;
+}
+
+.ing li {
+  list-style: none;
+}
+
+.ing a {
+  color: #fff;
+}
+
+.redes {
+  display: flex;
+}
+
+.face {
+  display: flex;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.face a {
+  color: #fff;
+}
+
+.face li {
+  list-style: none;
+}
